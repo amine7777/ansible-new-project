@@ -1,0 +1,5 @@
+---
+- name: Create a folder 2
+  file:
+    path: /tmp/application2
+    state: directory

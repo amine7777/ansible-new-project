@@ -1,0 +1,5 @@
+---
+- name: Create a forlder 1
+  file:
+    path: /tmp/application1
+    state: directory

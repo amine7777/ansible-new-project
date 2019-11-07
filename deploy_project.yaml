@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  connection: local
+  become: yes
+  become_user: root
+
+  vars_files:
+    - "group_vars/all/main.yml"
+
+  roles:
+   - { role: application1 }
+   #- { role: application2 }
+   #- { role: application3 }
